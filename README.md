@@ -31,6 +31,7 @@ The `DAdaptAdam` optimizer is an adaptive optimization algorithm that dynamicall
 **Example Usage**:
 ```python
 import tensorflow as tf
+from dadaptadam import DAdaptAdam
 
 # Instantiate the DAdaptAdam optimizer
 optimizer = DAdaptAdam(
@@ -83,6 +84,7 @@ The `DAdaptSGD` optimizer is an adaptive variant of stochastic gradient descent 
 **Example Usage**:
 ```python
 import tensorflow as tf
+from dadaptsgd import DAdaptSGD
 
 # Instantiate the DAdaptSGD optimizer
 optimizer = DAdaptSGD(
@@ -132,6 +134,7 @@ The `DAdaptLion` optimizer is an adaptive variant of the Lion optimizer that dyn
 **Example Usage**:
 ```python
 import tensorflow as tf
+from dadaptlion import DAdaptLion
 
 # Instantiate the DAdaptLion optimizer
 optimizer = DAdaptLion(
@@ -184,6 +187,7 @@ The `DAdaptAdan` optimizer is an adaptive optimization algorithm that extends th
 **Example Usage**:
 ```python
 import tensorflow as tf
+from dadaptadan import DAdaptAdan
 
 # Instantiate the DAdaptAdan optimizer
 optimizer = DAdaptAdan(
@@ -238,6 +242,7 @@ The `DAdaptAdaGrad` optimizer is an adaptive optimization algorithm that builds 
 **Example Usage**:
 ```python
 import tensorflow as tf
+from dadaptadagrad import DAdaptAdaGrad
 
 # Instantiate the DAdaptAdaGrad optimizer
 optimizer = DAdaptAdaGrad(
